@@ -1,0 +1,16 @@
+;;File: test-file.sbir
+;; 1: # blah blah
+;; 2: #
+;; 3: # Some stuff.
+;; 4: #
+;; 5: print "Hello, World!"
+(
+(1 (dim (arr 3)))
+(2 (let (arr 1) 5))
+(3 (print "value for arr 2"))
+(4 (input (arr 2)))
+(5)
+(6 (print (arr 1)))
+(7 (print (arr 2)))
+(8)
+)
